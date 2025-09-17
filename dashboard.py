@@ -163,5 +163,3 @@ fig2 = go.Figure()
 fig2.add_trace(go.Histogram(x=payoff, nbinsx=50, name="Payoff Distribution"))
 fig2.update_layout(title="Payoff Distribution", xaxis_title="Payoff", yaxis_title="Frequency", height=400)
 st.plotly_chart(fig2, use_container_width=True)
-
-"streamlit run /Users/mitpatel/Desktop/Projects/Exotic\ Option\ Pricing/dashboard.py"
